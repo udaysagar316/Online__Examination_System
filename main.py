@@ -12,11 +12,20 @@ def candidate_login():
         return False
 
 
+def show_exam_instructions():
+    print("\n--- Exam Instructions ---")
+    print("1. Read each question carefully.")
+    print("2. Choose one answer for each question.")
+    print("3. Each correct answer carries 1 mark.")
+    print("4. No negative marking.")
+
+
 def main():
     print("Online Examination System")
     print("Welcome to the Examination Portal")
 
-    candidate_login()
+    if candidate_login():
+        show_exam_instructions()
 
 
 if __name__ == "__main__":
