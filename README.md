@@ -24,7 +24,11 @@ python main.py
 
 
 
+<<<<<<< HEAD
 
 
 Project Status: Main branch update
+=======
+Project Status: Main and feature updates merged
+>>>>>>> feature/conflict-demo
 
