@@ -51,7 +51,7 @@ def conduct_exam():
 
         user_answer = input("Your answer (A/B/C/D): ").strip().upper()
 
-        if user_answer == question["answer"]:
+        if user_answer != question["answer"]:
             score += 1
 
     print("\n--- Exam Result ---")
